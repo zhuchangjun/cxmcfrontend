@@ -1,0 +1,35 @@
+.my-post{
+    width: 70%;
+    margin-left: max(5vw,25px);
+    margin-top: 50px;
+    color: #6D6D6D;
+    font-size: 16px;
+}
+.my-post form{
+   gap: 20px;
+}
+.my-post-img-upload img{
+    width: 120px;
+}
+.my-post-product-name, .my-post-product-description{
+    width: max(40%,280px);
+}
+.my-post-product-name input ,.my-post-product-description textarea{
+    padding: 10px 10px;
+}
+.my-post-category-price{
+    display: flex;
+    gap: 30px;
+}
+.my-post-category-price select,.my-post-category-price input{
+    max-width: 120px;
+    padding: 10px;
+}
+.my-post-btn{
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
